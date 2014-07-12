@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm", "Norm.csproj", "{46D8041B-4BC0-4206-A3BD-1307514F6D04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm", "Norm\Norm.csproj", "{46D8041B-4BC0-4206-A3BD-1307514F6D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm.Async", "..\Norm.Async\Norm.Async.csproj", "{C34181F8-D4CE-4B2A-97A8-23A430DEF9F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm.Async", "Norm.Async\Norm.Async.csproj", "{C34181F8-D4CE-4B2A-97A8-23A430DEF9F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm.Tests", "Norm.Tests\Norm.Tests.csproj", "{CB0DF0C3-7C7A-47D8-8276-7FDAFBC76535}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norm.Async.Tests", "Norm.Async.Tests\Norm.Async.Tests.csproj", "{14B78F16-1839-4E6D-A013-35C8EC6BFA04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{64F27091-8E21-40F8-8A8E-4ADC5718C2D5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
