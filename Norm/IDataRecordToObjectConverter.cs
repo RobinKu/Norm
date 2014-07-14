@@ -35,6 +35,6 @@ namespace Norm
 
     public interface IDataRecordToObjectConverter<T>: IDataRecordToObjectConverter
     {
-        T Convert(IDataRecord dataRecord);
+        new T Convert(IDataRecord dataRecord);
     }
 }
