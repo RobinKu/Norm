@@ -29,7 +29,25 @@ namespace Norm
             get;
         }
 
+        IDictionary<string, object> Parameters
+        {
+            get;
+        }
+
         object Result
+        {
+            get;
+        }
+
+        Type ResultType
+        {
+            get;
+        }
+    }
+
+    public interface IQuery<TItem, TResult> : IQuery
+    {
+        new TResult Result
         {
             get;
         }
